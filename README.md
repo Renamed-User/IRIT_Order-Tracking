@@ -14,16 +14,19 @@ IRIT_Order-Tracking — консольное приложение для упр�
 ```
 IRIT_Order-Tracking/
 │
+├── database/                       
+│   ├── database.db                     # Файл базы данных
+│   └── schema.sql                      # Схема базы данных	
+│
 ├── docs/                       # Документация проекта
 │   └── diagrams/               # Диаграммы
+│       ├── er-diagramm.png
 │       ├── Use-Case-uml.mdpuml
-│       ├── Use-Case.jpg
-│       ├── Авторизация.jpg
-│       ├── Действия завхоза.jpg
-│       └── Действия сотрудника.jpg	
+│       ├── Регистрация.png
+│       ├── Завхоз.png
+│       └── Сотрудник.png  	
 │
 ├── src/                        # Исходный код приложения
-│   │
 │   └── Order-Tracking/         # Основной пакет приложения
 │       └── main.cpp
 │
